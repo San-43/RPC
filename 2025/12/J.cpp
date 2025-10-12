@@ -21,7 +21,7 @@ constexpr int dx[4] = {1, 0, -1, 0}, dy[4] = {0, 1, 0, -1};
 
 void solve() {
     int n, m;
-    if (!(cin >> n >> m)) return;
+    cin >> n >> m;
 
     vector<int> a(m + 2, 0);
 
